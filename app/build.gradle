@@ -12,6 +12,14 @@ android {
         versionName "2.0dev"
     }
 
+    signingConfigs {
+        config {
+            storeFile file("../rong.key")
+            storePassword "Amigo123"
+            keyAlias "RongCloud"
+            keyPassword "Amigo123"
+        }
+    }
     sourceSets {
         main {
             jni.srcDirs = []
