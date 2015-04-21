@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/customer" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/px_to_dip_190">
+
+        <TextView
+            android:id="@+id/tv_commoditydescription"
+            android:layout_width="@dimen/px_to_dip_700"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/px_to_dip_20"
+            android:text="@string/commoditydescription"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_commoditydescription"
+            android:layout_marginLeft="@dimen/px_to_dip_20"
+            android:text="@string/the_price"
+            android:textColor="#FF6600" />
+
+        <TextView
+            android:id="@+id/customer_chat"
+            android:layout_width="@dimen/px_to_dip_134"
+            android:layout_height="@dimen/px_to_dip_46"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/px_to_dip_24"
+            android:layout_marginTop="@dimen/px_to_dip_130"
+            android:background="@drawable/service"
+            android:gravity="center"
+            android:text="客服聊天"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

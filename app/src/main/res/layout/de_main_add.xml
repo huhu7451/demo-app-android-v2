@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="480dp"
+    android:layout_height="wrap_content"
+    android:background="@color/group_list_liner"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        android:id="@+id/add_chat_liner"
+        >
+
+        <ImageView
+            android:id="@+id/img1"
+            style="@style/ActionBarSettingImg"
+            android:background="@drawable/de_btn_main_chat"/>
+        <TextView
+            android:text="@string/add_chat"
+            android:layout_toRightOf="@+id/img1"
+            style="@style/ActionBarSettingTextView"
+            />
+        <View
+            style="@style/PublicLineView"
+            android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        android:layout_below="@+id/add_chat_liner"
+        android:id="@+id/add_groups_liner"
+        >
+
+        <ImageView
+            android:id="@+id/img2"
+            style="@style/ActionBarSettingImg"
+            android:background="@drawable/de_btn_main_groups"/>
+        <TextView
+            android:text="@string/add_select_group"
+            android:layout_toRightOf="@+id/img2"
+            style="@style/ActionBarSettingTextView"
+            />
+        <View
+            style="@style/PublicLineView"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        android:layout_below="@+id/add_groups_liner"
+        android:visibility="gone"
+        android:id="@+id/add_voip_liner"
+        >
+
+        <ImageView
+            android:id="@+id/img3"
+            style="@style/ActionBarSettingImg"
+            android:background="@drawable/de_btn_main_voip"/>
+        <TextView
+            android:text="@string/add_voip"
+            android:layout_toRightOf="@+id/img3"
+            style="@style/ActionBarSettingTextView"
+            />
+        <View
+            style="@style/PublicLineView"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        android:layout_below="@+id/add_voip_liner"
+        android:id="@+id/add_contacts_liner"
+        >
+
+        <ImageView
+            android:id="@+id/img4"
+            style="@style/ActionBarSettingImg"
+            android:background="@drawable/de_btn_main_contacts"/>
+        <TextView
+            android:text="@string/add_contacts"
+            android:layout_toRightOf="@+id/img4"
+            style="@style/ActionBarSettingTextView"
+            />
+        <View
+            style="@style/PublicLineView"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

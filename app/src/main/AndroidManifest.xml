@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.rong.app">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.AboutRongCloudActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.MyAccountActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.NewMessageRemindActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.PrivacyActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.UpdateNameActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.DeFriendListActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.DeAdressListActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.DeSearchFriendActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.DeNewFriendListActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.DePersonalDetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.PublicServiceActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"></activity>
+
+        <activity
+            android:name=".activity.PublicServiceSearchActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activity.PublicServiceInfoActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data
+                    android:host="io.rong.app"
+                    android:pathPrefix="/publicAccountInfo"
+                    android:scheme="rong"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.DeGroupDetailActivity"
+            android:screenOrientation="portrait">
+
+
+        </activity>
+
+
+        <activity
+            android:name=".activity.DeConversationSettingActivity"
+
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="io.rong.app"
+                    android:pathPrefix="/conversationSetting/"
+                    android:scheme="demo" />
+            </intent-filter>
+
+
+        </activity>
+
+
+        <activity
+            android:name=".activity.DemoActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="io.rong.app"
+                    android:pathPrefix="/conversation/"
+                    android:scheme="rong" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="io.rong.app"
+                    android:pathPrefix="/friend/"
+                    android:scheme="rong" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".activity.PhotoActivity" />
+
+        <activity
+            android:name=".activity.DemoSubActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="io.rong.app"
+                    android:path="/subconversationlist"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        <!-- soso -->
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="7JYBZ-4Y3W4-JMUU7-DJHQU-NOYH7-SRBBU" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="543c86c5fd98c507d001cb71"></meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="DEMO_GITHUB"></meta-data>
+
+        <activity android:name=".activity.SOSOLocationActivity" />
+
+        <activity android:name=".activity.UpdateLogActivity"></activity>
+        <activity android:name=".activity.FunctionIntroducedActivity"></activity>
+        <activity android:name=".activity.DocumentActivity"></activity>
+        <activity android:name=".activity.RongWebActivity"></activity>
+        <activity android:name=".activity.DePerDetailActivity"></activity>
+        <activity android:name=".activity.DeBlackListActivity"></activity>
+
+
+        <activity
+            android:name="io.rong.voipkit.activity.CallSideActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="io.rong.app"
+                    android:pathPrefix="/VoIPCall"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="io.rong.voipkit.activity.CalledSideActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="io.rong.app"
+                    android:pathPrefix="/VoIPAccept"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+
+</manifest>

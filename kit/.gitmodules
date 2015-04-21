@@ -1,0 +1,9 @@
+[submodule "src/core"]
+	path = src/core
+	url = git@gitlab.rongcloud.net:android-team/android-imkit-core.git
+[submodule "src/voip"]
+	path = src/voip
+	url = git@gitlab.rongcloud.net:android-team/android-imkit-voip.git
+[submodule "src/conversation"]
+	path = src/conversation
+	url = git@gitlab.rongcloud.net:android-team/android-imkit-conversation.git

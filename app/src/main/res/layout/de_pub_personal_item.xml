@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="50dp"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        android:id="@+id/paDetailItem">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="功能介绍"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:id="@+id/paPersonalDetailTitle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/paPersonalDetailDescription"
+            android:text="媒体解读习近平“四个全面”战略布局一带一路 国学大讲堂 官员底线思维 经济新常态李克强：今天东北要重拾“闯关东”精神"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="40dp"
+            android:visibility="gone"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:id="@+id/paPersonalDetailSwitch"
+            android:layout_alignParentRight="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pub_green"
+            android:text="关注"
+            android:id="@+id/paPersonalDetailEntry"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

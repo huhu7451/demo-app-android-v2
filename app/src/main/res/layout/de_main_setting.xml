@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="480dp"
+    android:layout_height="wrap_content"
+    android:background="@color/group_list_liner"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        android:id="@+id/set_personal_rel"
+        >
+
+        <ImageView
+            android:id="@+id/img1"
+            style="@style/ActionBarSettingImg"
+            android:background="@drawable/de_btn_main_personal_information"/>
+        <TextView
+            android:text="@string/set_personal_information"
+            android:layout_toRightOf="@+id/img1"
+            style="@style/ActionBarSettingTextView"
+            />
+        <View
+            style="@style/PublicLineView"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        android:layout_below="@+id/set_personal_rel"
+        android:id="@+id/set_newmessage_rel"
+        >
+
+        <ImageView
+            android:id="@+id/img2"
+            style="@style/ActionBarSettingImg"
+            android:background="@drawable/de_btn_main_news_reminded"/>
+        <TextView
+            android:text="@string/set_news_reminded"
+            android:layout_toRightOf="@+id/img2"
+            style="@style/ActionBarSettingTextView"
+            />
+        <View
+            style="@style/PublicLineView"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        android:layout_below="@+id/set_newmessage_rel"
+        android:id="@+id/set_privacy_rel"
+        android:visibility="visible"
+        >
+
+        <ImageView
+            android:id="@+id/img3"
+            style="@style/ActionBarSettingImg"
+            android:background="@drawable/de_btn_main_privacy"/>
+        <TextView
+            android:text="@string/set_privacy"
+            android:layout_toRightOf="@+id/img3"
+            style="@style/ActionBarSettingTextView"
+            />
+        <View
+            style="@style/PublicLineView"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        android:layout_below="@+id/set_privacy_rel"
+        android:id="@+id/set_setting_rel"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/img4"
+            style="@style/ActionBarSettingImg"
+            android:background="@drawable/de_btn_main_set"/>
+        <TextView
+            android:text="@string/set_set"
+            android:layout_toRightOf="@+id/img4"
+            style="@style/ActionBarSettingTextView"
+            />
+        <View
+            style="@style/PublicLineView"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        android:layout_below="@+id/set_setting_rel"
+        android:id="@+id/set_about_rong_rel"
+        >
+
+        <ImageView
+            android:id="@+id/img5"
+            style="@style/ActionBarSettingImg"
+            android:background="@drawable/de_btn_main_rongcloud"/>
+        <TextView
+            android:text="@string/set_rongcloud"
+            android:layout_toRightOf="@+id/img5"
+            style="@style/ActionBarSettingTextView"
+            />
+        <View
+            style="@style/PublicLineView"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        android:layout_below="@+id/set_about_rong_rel"
+        android:id="@+id/set_sign_out_rel"
+        >
+
+        <ImageView
+            android:id="@+id/img6"
+            style="@style/ActionBarSettingImg"
+            android:background="@drawable/de_btn_main_sign_out"/>
+        <TextView
+            android:text="@string/set_sign_out"
+            android:layout_toRightOf="@+id/img6"
+            style="@style/ActionBarSettingTextView"
+            />
+        <View
+            style="@style/PublicLineView"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

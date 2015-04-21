@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp">
+
+    <ImageView
+        android:id="@+id/group_adapter_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/rc_group_default_portrait"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="@dimen/px_to_dip_360"
+        android:layout_height="@dimen/px_to_dip_134"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/px_to_dip_18"
+        android:layout_toRightOf="@+id/group_adapter_img"
+        android:orientation="vertical"
+        android:padding="@dimen/px_to_dip_10">
+
+        <TextView
+            android:id="@+id/group_adaper_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:text="ddsfs"
+            android:textColor="@color/group_list_black_textview"
+            android:textSize="@dimen/px_to_dip_32" />
+
+        <TextView
+            android:id="@+id/group_last_information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_to_dip_3"
+            android:ellipsize="end"
+            android:text="100"
+            android:textColor="@color/group_list_gray"
+            android:textSize="@dimen/px_to_dip_28" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/de_conversation_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp" />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp"
+        android:background="@color/group_list_liner" />
+</RelativeLayout>

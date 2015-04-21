@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="78dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/group_list_liner"
+        android:text="发起聊天"/>
+
+    <Button
+        android:id="@+id/text_button"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:background="@drawable/de_select_friends_selector"
+        android:textColor="@drawable/de_co_select_selector"
+        />
+    </RelativeLayout>

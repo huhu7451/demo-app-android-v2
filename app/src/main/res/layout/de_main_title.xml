@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout style="@style/RCTheme.ActionBar">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_marginLeft="@dimen/px_to_dip_26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/de_bar_logo"/>
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_marginLeft="@dimen/px_to_dip_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/main_name"
+            />
+        <ImageButton
+            android:layout_width="@dimen/px_to_dip_112"
+            android:layout_height="@dimen/px_to_dip_96"
+            android:id="@+id/main_title_add"
+            android:layout_toLeftOf="@+id/main_title_about"
+            android:background="@drawable/de_main_title_add_selector"
+            />
+        <ImageButton
+            android:layout_width="@dimen/px_to_dip_112"
+            android:layout_height="@dimen/px_to_dip_96"
+            android:layout_alignParentRight="true"
+            android:id="@+id/main_title_about"
+            android:background="@drawable/de_main_title_about_selector"
+
+            />
+    </RelativeLayout>
+</merge>
