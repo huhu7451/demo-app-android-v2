@@ -2,137 +2,74 @@
 <items version="2" >
 
     <item
-        jar="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\libs\gson-2.2.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
-        <dex dex="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\pre-dexed\debug\gson-2.2.4-54405faa36238d29a159c641373139ea99b1be84.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\pre-dexed\debug\classes-58dbf82b200defe97441b5e7d6a9a3f26f5a6e25.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\exploded-aar\demo-app-android-v2\kit\unspecified\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ce7d39384ecb389be80e2860022112cfa8bf6b69">
-        <dex dex="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\pre-dexed\debug\classes-f691f1eba30b78f52f74e9fdc80344834716e699.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\libs\TencentMapSDK_Raster_v1.0.6.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="232c8c3964113f0f39a9f4cdd3473d5075d188aa">
-        <dex dex="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\pre-dexed\debug\TencentMapSDK_Raster_v1.0.6-50e578947aba8b1e2acb2fc440d32d55d2ac8e71.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\libs\gson-2.2.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
-        <dex dex="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\pre-dexed\debug\gson-2.2.4-f9e0f0212c611be82d522c7df60ae0f96518014e.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jar="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-662cb0898b567a43b084c113d9582eebd91bf7ec.jar" />
+        <dex dex="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-beff3c14051a39d3082cf9520f687d6d9a5d0488.jar" />
     </item>
     <item
-        jar="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\exploded-aar\demo\kit\unspecified\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="fe50d832dd6cfedb841c9add6cad36a88d1678cb">
-        <dex dex="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\pre-dexed\debug\classes-5f87ed61e774f56c7cbec21acbec9d6c9d2ac3d0.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\libs\TencentMapSDK_Raster_v1.0.6.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="232c8c3964113f0f39a9f4cdd3473d5075d188aa">
-        <dex dex="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\pre-dexed\debug\TencentMapSDK_Raster_v1.0.6-1017d1371a57440fd0a48bbc2da8c437943cf258.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\libs\umeng-analytics-v5.2.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0f9eccf79ae6006e4346725b09114182dca0c023">
-        <dex dex="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.2.4-46fbf2c4352731f737defb60011e1bea4be2760a.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-2bea7bfef4535b44fd7c0048448a12b88329f0d1.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\pre-dexed\debug\classes-9d26965ed0ca1d12bcfc2eab96e87ec66a931b56.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\exploded-aar\demo\kit\unspecified\libs\Rong_IMKit_v1_2_0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="78f98045198428345f35a51c83a8bf2adacfde01">
-        <dex dex="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\pre-dexed\debug\Rong_IMKit_v1_2_0-c2dc0ba28a6284d893906d96a4ac2a96494016ea.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\exploded-aar\demo-app-android-v2\kit\unspecified\libs\Rong_IMKit_v1_2_0.jar"
+        jar="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/exploded-aar/demo-app-android-v2/kit/unspecified/libs/Rong_IMKit_v2_0_0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="dce27234238e61aee71723f75ca9b7731f555fae">
-        <dex dex="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\pre-dexed\debug\Rong_IMKit_v1_2_0-43d72ad9f345d2c0d148be7e74fc5703fa44a105.jar" />
+        <dex dex="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/pre-dexed/debug/Rong_IMKit_v2_0_0-07c7f845e2e1a44e636416fe59aeb844c009ef34.jar" />
     </item>
     <item
-        jar="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\libs\umeng-analytics-v5.2.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0f9eccf79ae6006e4346725b09114182dca0c023">
-        <dex dex="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.2.4-1f582441db74925f6dc23240c933b906369864f1.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
-        <dex dex="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\pre-dexed\debug\classes-e0e06da1ddb23f9c619db5e03b073d3eaae41e86.jar" />
-    </item>
-    <item
-        jar="D:\android dev\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="/Users/zhjchen/Documents/development/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-bb8ff1006df109441bc71618fe6eb12ffeef467f.jar" />
+        <dex dex="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-a78dd749b8df62a5c13f8d43016647649a9306ef.jar" />
     </item>
     <item
-        jar="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\libs\TencentLocationSDK_v4.0_r139747.jar"
+        jar="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/libs/umeng-analytics-v5.2.4.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="a0981c8c4b5336c82ac2caf280c7e13373a8bf7b">
-        <dex dex="E:\SourceTreeWorkSpace\2015GitHubWorkSpace\demo-app-android-v2\app\build\intermediates\pre-dexed\debug\TencentLocationSDK_v4.0_r139747-2acec8a0981034db7e0ced7c5fc2dd892da29168.jar" />
+        sha1="0f9eccf79ae6006e4346725b09114182dca0c023">
+        <dex dex="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/pre-dexed/debug/umeng-analytics-v5.2.4-0423ac6135599b22fea47497a3f08278918c7faf.jar" />
     </item>
     <item
-        jar="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\libs\TencentLocationSDK_v4.0_r139747.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a0981c8c4b5336c82ac2caf280c7e13373a8bf7b">
-        <dex dex="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\pre-dexed\debug\TencentLocationSDK_v4.0_r139747-49d85ec95702ba466d279a98c864b27b5cef9d4f.jar" />
-    </item>
-    <item
-        jar="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jar="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
-        <dex dex="E:\SourceTreeWorkSpace\0421GitHubNewBranch\demo\demo\app\build\intermediates\pre-dexed\debug\classes-de98ad7f13eeb225951cd266d1bde543cb77b060.jar" />
+        <dex dex="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/pre-dexed/debug/classes-a7d00382a0c9db168bd1dc8618b2e0301242cff1.jar" />
+    </item>
+    <item
+        jar="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/pre-dexed/debug/gson-2.2.4-dc56977e6972404fd3f83c6496e5c88f6eec98cf.jar" />
+    </item>
+    <item
+        jar="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/pre-dexed/debug/classes-a254c9318221dc24fb6f97bf122d7eb0fa73d191.jar" />
+    </item>
+    <item
+        jar="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/libs/TencentMapSDK_Raster_v1.0.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="232c8c3964113f0f39a9f4cdd3473d5075d188aa">
+        <dex dex="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/pre-dexed/debug/TencentMapSDK_Raster_v1.0.6-10156841eaf5e74c9679b09afb981a9f039a285f.jar" />
+    </item>
+    <item
+        jar="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/libs/TencentLocationSDK_v4.0_r139747.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a0981c8c4b5336c82ac2caf280c7e13373a8bf7b">
+        <dex dex="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/pre-dexed/debug/TencentLocationSDK_v4.0_r139747-f4ee940bdbf4a526402841cb3a773ca211b08399.jar" />
+    </item>
+    <item
+        jar="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/exploded-aar/demo-app-android-v2/kit/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="49f0a9dbdf782106144fc92028f3ccc95c811bff">
+        <dex dex="/Users/zhjchen/gitlab_rc/demo-app-android-v2/app/build/intermediates/pre-dexed/debug/classes-6dedecfd3699a1725f9339fe68a3ba8e73dc1f5c.jar" />
     </item>
 
 </items>
