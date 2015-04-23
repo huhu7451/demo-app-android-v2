@@ -8,7 +8,7 @@
 ###Eclipse 环境
 
 #####1. 下载：
-  下载融云demo到自己电脑。
+  下载融云 demo 2.0 到自己电脑。
 #####2. 导入项目：
   打开 Eclipse 选择 file—>import—>General—>Existing Projects into WorkSpace
      选择融云demo目录，勾选RongDemo、RongIMKit、android-support-v7-appcompat 项目，然后点finish按钮完成项目导入。
@@ -20,7 +20,7 @@
 
 ###Android studio 环境
 #####1. 下载
- 下载融云 demo 到自己电脑。
+ 下载融云 demo 2.0 到自己电脑。
 #####2. 导入项目
 打开 Android studio 选择 open an existing Android Studio project 导入项目。
 #####3. 删除引用
