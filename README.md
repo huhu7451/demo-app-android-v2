@@ -3,7 +3,7 @@
 ![Mou icon](http://www.rongcloud.cn/images/logo_1.png)
 
 
-##融云 Demo 2.0 运行
+##融云 Demo 2.0 运行方式
 
 ###Eclipse 环境
 
