@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.rong.app">
-    
+
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="21" />
-    
-      <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-      
-          <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <!-- 获取机型信息权限 -->
@@ -90,23 +90,22 @@
 
         <activity
             android:name=".activity.PublicServiceActivity"
-            android:screenOrientation="portrait"
-            android:launchMode="singleTask"></activity>
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"></activity>
 
         <activity
             android:name=".activity.PublicServiceSearchActivity"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".activity.PublicServiceInfoActivity"
             android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
                 <data
                     android:host="io.rong.app"
                     android:pathPrefix="/publicAccountInfo"
-                    android:scheme="rong"/>
+                    android:scheme="rong" />
             </intent-filter>
         </activity>
 
@@ -232,23 +231,23 @@
                     android:scheme="rong" />
             </intent-filter>
         </activity>
-        
-                <activity
-            android:name=".RongActivity"
+
+        <activity
+            android:name="io.rong.imkit.RongActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name=".tools.SelectPictureActivity"
+            android:name="io.rong.imkit.tools.SelectPictureActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".tools.PreviewPictureActivity"
+            android:name="io.rong.imkit.tools.PreviewPictureActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".tools.RongWebviewActivity"
+            android:name="io.rong.imkit.tools.RongWebviewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".widget.provider.TakingPicturesActivity"
+            android:name="io.rong.imkit.widget.provider.TakingPicturesActivity"
             android:screenOrientation="portrait"></activity>
 
         <service
@@ -265,7 +264,7 @@
         <meta-data
             android:name="RONG_CLOUD_APP_KEY"
             android:value="z3v5yqkbv8v30" />
-¬
+        ¬
 
     </application>
 
