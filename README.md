@@ -10,23 +10,27 @@
 #####1. 下载：
   下载融云demo到自己电脑。
 #####2. 导入项目：
-  import—>General—>Existing Projects into WorkSpace
+  打开 Eclipse 选择 file—>import—>General—>Existing Projects into WorkSpace
      选择融云demo目录，勾选RongDemo、RongIMKit、android-support-v7-appcompat 项目，然后点finish按钮完成项目导入。
 #####3. 设置JAVA Complier:
  设置JAVA编译版本jdk 1.7以上。
 #####4. 完成导入 build apk。
+注：如果 clean 项目后发现还是不能正常运行，找到 Eclipse 下的 Problems 删除红色提示后就可正常运行。
 
 
 ###Android studio 环境
 #####1. 下载
  下载融云 demo 到自己电脑。
 #####2. 导入项目
-打开Android studio 选择 open an existing Android Studio project 导入项目。
+打开 Android studio 选择 open an existing Android Studio project 导入项目。
 #####3. 删除引用
 为了更方便的 Eclipse 开发者我们引用了 appcompat-v7 包，Android studio 开发者需要做两步操作：<BR/>
 **1. 删除 settings.gradle 中的 " appcompat-v7 "。** <BR/>
 **2. 删除 appcompat-v7 Module 。**
 #####4. 完成导入 build apk。
+
+
+
 
 
 
